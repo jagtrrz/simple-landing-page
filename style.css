@@ -30,15 +30,15 @@ body {
 	font-family: 'Poppins', Arial, sans-serif;
 }
 
-i{
-    font-size: 30px;
+.navbar-brand i{
+    font-size: 4rem;
 }
 
 
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('1.jpg');
+  background-image: url('img/travels-header-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
