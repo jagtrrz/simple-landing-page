@@ -1,0 +1,45 @@
+.header .navbar {
+	background-color: transparent !important;
+}
+
+.navbar-nav {
+	font-size: 21px;
+}
+
+.form-control{
+    height: 4.3rem !important;
+}
+
+.button-form{
+    height: 4.28rem !important;
+    position: relative;
+    left: -1rem;
+    top: -0.25rem;
+}
+
+.search-form{
+    height: 4.3rem !important;
+    position: relative;
+    left: -2rem;
+    top: -0.1rem;
+    display: none;
+}
+
+
+body {
+	font-family: 'Poppins', Arial, sans-serif;
+}
+
+i{
+    font-size: 30px;
+}
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
