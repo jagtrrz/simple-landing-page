@@ -6,25 +6,39 @@
 	font-size: 21px;
 }
 
-.form-control{
-    height: 4.3rem !important;
+.drop{
+    align-self: start;
+    padding: 0;
 }
 
-.button-form{
-    height: 4.28rem !important;
-    position: relative;
-    left: -1rem;
-    top: -0.25rem;
+.search-input {
+    border-radius: 0;
+    height: 4rem;
 }
 
-.search-form{
-    height: 4.3rem !important;
-    position: relative;
-    left: -2rem;
-    top: -0.1rem;
-    display: none;
+.search-input-were {
+    border-radius: 0;
+    border-left: 0;
+    height: 4rem;
 }
 
+@media screen and (max-width: 576px) {
+  .dropdown {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bg-dark {
+	    background-color: #343a40!important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .bg-dark {
+	    background-color: transparent!important;
+  }
+}
 
 body {
 	font-family: 'Poppins', Arial, sans-serif;

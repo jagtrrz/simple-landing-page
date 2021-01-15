@@ -9,22 +9,21 @@
 			integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="style.css" />
 		<link
 			href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
 			rel="stylesheet"
 		/>
-		<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet" />
 		<link
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
 			integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
 			crossorigin="anonymous"
-		/>
+        />
+        <link rel="stylesheet" href="style.css" />
 		<title>Crazy´s Travels</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
 			<div class="container">
 				<a class="navbar-brand" href="#"><i class="fab fa-cuttlefish"></i></a>
 				<button
@@ -67,20 +66,20 @@
 							Live an unforgettable Experience
 						</h1>
 						<form>
-							<div class="form-row align-items-center">
-								<div class="col-6">
+							<div class="row align-items-center">
+								<div class="col-6 drop">
 									<label class="sr-only" for="search">Search</label>
 									<input
 										type="text"
-										class="form-control mb-2"
+										class="form-control search-input ml-3 mb-2"
 										class="search"
 										placeholder="Ex: Hotels, Tour, Food"
 									/>
 								</div>
-								<div class="col-auto">
+								<div class="col-auto drop">
 									<div class="dropdown">
 										<button
-											class="btn btn-light button-form dropdown-toggle"
+											class="btn search-input btn-light dropdown-toggle"
 											type="button"
 											id="dropdownMenuButton"
 											data-toggle="dropdown"
@@ -96,8 +95,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-auto">
-									<button type="submit" class="btn search-form btn-primary mb-2">Search</button>
+								<div class="col-auto drop">
+									<button type="submit" class="btn search-input-were search-form btn-primary mb-2">Search</button>
 								</div>
 							</div>
 						</form>
