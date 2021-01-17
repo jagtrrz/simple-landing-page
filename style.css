@@ -1,0 +1,18 @@
+.jumbotron {
+	background: #358cce;
+	color: #fff;
+	border-radius: 0px;
+	font-size: 24px;
+}
+.jumbotron-sm {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.map {
+	width: 100%;
+}
+
+.bg-color {
+	background-color: black;
+}
