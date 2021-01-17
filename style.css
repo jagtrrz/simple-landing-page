@@ -20,6 +20,7 @@
     border-radius: 0;
     border-left: 0;
     height: 4rem;
+    background-color: #0A1172;
 }
 
 @media screen and (max-width: 576px) {
@@ -49,7 +50,7 @@ body {
 }
 
 
-.masthead {
+.header-back {
   height: 100vh;
   min-height: 500px;
   background-image: url('img/travels-header-bg.jpg');
