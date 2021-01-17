@@ -1,5 +1,5 @@
 .jumbotron {
-	background: #358cce;
+	background: #0A1172;
 	color: #fff;
 	border-radius: 0px;
 	font-size: 24px;
@@ -7,6 +7,15 @@
 .jumbotron-sm {
 	padding-top: 24px;
 	padding-bottom: 24px;
+}
+
+.btn-new-color{
+    background-color: #0A1172;
+    transition-duration: 0.4s;
+}
+
+.btn-new-color:hover{
+    background-color: #5057B0;
 }
 
 .map {
