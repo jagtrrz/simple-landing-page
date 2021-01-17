@@ -23,8 +23,8 @@ body {
     
 }
 
-.button1 {
-    background-color: #4f8aa5;
+.buttonsection1 {
+    background-color: #0A1172;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -36,10 +36,11 @@ body {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    
 }
 
 .buttontravels {
-    background-color: #4f8aa5;
+    background-color: #0A1172;
     border: none;
     color: white;
     padding: 8px 16px;
@@ -55,15 +56,11 @@ body {
 
 
 button:hover {
-    background-color: #73cbd9;
-    color: black;
+    background-color: #5057b0;
+    color: white;
     font-weight: bold;
-
 }
 
-i {
-    color: #73cbd9; 
+.iconsSection2 {
+    color: #5057b0;
 }
-
-
-
