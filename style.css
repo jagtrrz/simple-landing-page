@@ -37,7 +37,7 @@
 
 @media screen and (min-width: 576px) {
   .bg-dark {
-	    background-color: transparent!important;
+	    background-color: transparent !important;
   }
 }
 
@@ -102,7 +102,6 @@ body {
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -119,4 +118,33 @@ button:hover {
 
 .iconsSection2 {
     color: #5057b0;
+
+}
+
+.jumbotron {
+	background: #0A1172;
+	color: #fff;
+	border-radius: 0px;
+	font-size: 24px;
+}
+.jumbotron-sm {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.btn-new-color{
+    background-color: #0A1172;
+    transition-duration: 0.4s;
+}
+
+.btn-new-color:hover{
+    background-color: #5057B0;
+}
+
+.map {
+	width: 100%;
+}
+
+.bg-color {
+	background-color: black;
 }
